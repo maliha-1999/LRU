@@ -17,105 +17,97 @@
 <tr>
 <td>1:</td>
 <td>1</td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>2:</td>
-                <td>1</td>
-                <td>2</td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>3:</td>
-                <td>1</td>
-                <td>2</td>
-                <td>3</td>
-            </tr>
-            <tr>
-                <td>2:</td>
-                <td>1</td>
-                <td>2</td>
-                <td>3</td>
-            </tr>
-            <tr>
-                <td>1:</td>
-                <td>1</td>
-                <td>2</td>
-                <td>3</td>
-            </tr>
-            <tr>
-                <td>5:</td>
-                <td>1</td>
-                <td>2</td>
-                <td>5</td>
-            </tr>
-            <tr>
-                <td>2:</td>
-                <td>1</td>
-                <td>2</td>
-                <td>5</td>
-            </tr>
-            <tr>
-                <td>1:</td>
-                <td>1</td>
-                <td>2</td>
-                <td>5</td>
-            </tr>
-            <tr>
-                <td>6:</td>
-                <td>1</td>
-                <td>2</td>
-                <td>6</td>
-            </tr>
-            <tr>
-                <td>2:</td>
-                <td>1</td>
-                <td>2</td>
-                <td>6</td>
-            </tr>
-            <tr>
-                <td>5:</td>
-                <td>5</td>
-                <td>2</td>
-                <td>6</td>
-            </tr>
-            <tr>
-                <td>6:</td>
-                <td>5</td>
-                <td>2</td>
-                <td>6</td>
-            </tr>
-            <tr>
-                <td>3:</td>
-                <td>5</td>
-                <td>3</td>
-                <td>6</td>
-            </tr>
-            <tr>
-                <td>1:</td>
-                <td>1</td>
-                <td>3</td>
-                <td>6</td>
-            </tr>
-            <tr>
-                <td>3:</td>
-                <td>1</td>
-                <td>3</td>
-                <td>6</td>
-            </tr>
-        </tbody>
-    </table>
-
-    <p><strong>Total Page Faults:</strong> 8</p>
-
-    <h2>Implementation Details</h2>
-    <p>The LRU algorithm is implemented in various systems to manage memory efficiently. It works on the principle of evicting the page that has not been accessed for the longest time when a new page needs to be loaded into memory.</p>
-
-    <h2>Usage</h2>
-    <p>This example illustrates how LRU can be applied in scenarios where the number of available page frames is limited, and the goal is to reduce the frequency of accessing data from slower storage devices.</p>
-
-    <h2>References</h2>
-    <ul>
-        <li><a href="https://en.wikipedia.org/wiki/Page_replacement_algorithm#Least_recently_used">LRU Algorithm - Wikipedia</a></li>
-        </ul>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>2:</td>
+<td>1</td>
+<td>2</td>
+<td></td>
+</tr>
+<tr>
+<td>3:</td>
+<td>1</td>
+<td>2</td>
+<td>3</td>
+</tr>
+<tr>
+<td>2:</td>
+<td>1</td>
+<td>2</td>
+<td>3</td>
+</tr>
+<tr>
+<td>1:</td>
+<td>1</td>
+<td>2</td>
+<td>3</td>
+</tr>
+<tr>
+<td>5:</td>
+<td>1</td>
+<td>2</td>
+<td>5</td>
+</tr>
+<tr>
+<td>2:</td>
+<td>1</td>
+<td>2</td>
+<td>5</td>
+</tr>
+<tr>
+<td>1:</td>
+<td>1</td>
+<td>2</td>
+<td>5</td>
+</tr>
+<tr>
+<td>6:</td>
+<td>1</td>
+<td>2</td>
+<td>6</td>
+</tr>
+<tr>
+<td>2:</td>
+<td>1</td>
+<td>2</td>
+<td>6</td>
+</tr>
+<tr>
+<td>5:</td>
+<td>5</td>
+<td>2</td>
+<td>6</td>
+</tr>
+<tr>
+<td>6:</td>
+<td>5</td>
+<td>2</td>
+<td>6</td>
+</tr>
+<tr>
+<td>3:</td>
+<td>5</td>
+<td>3</td>
+<td>6</td>
+</tr>
+<tr>
+<td>1:</td>
+<td>1</td>
+<td>3</td>
+<td>6</td>
+</tr>
+<tr>
+<td>3:</td>
+<td>1</td>
+<td>3</td>
+<td>6</td>
+</tr>
+</table>
+<h3><strong>Total Page Faults:</strong> 8</h3>
+<h2>Implementation:</h2>
+<h4>The LRU algorithm is implemented in various systems to manage memory efficiently. It works on the principle of evicting the page that has not been accessed for the longest time when a new page needs to be loaded into memory.</p>
+<h3>Input and Output is given below </h3>
+<img src="LRU.PNG" alt="FIFO Execution Output">
+    
